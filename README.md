@@ -1,6 +1,6 @@
 # ubuntu-desktop
 
-How to bootstrap RDP on Ubuntu 16.04.
+Use on Ubuntu 16.10 or later as copy and paste does not work on 16.04
 
 AWS 
 1. add the contents of the ubuntudesktop.sh file to the User-data section.
