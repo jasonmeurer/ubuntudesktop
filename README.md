@@ -1,6 +1,6 @@
 # ubuntu-desktop
 
-Use on Ubuntu 16.10 or later as copy and paste does not work on 16.04
+Tested on Ubuntu 17.04 as copy and paste does not work on 16.04
 
 AWS 
 1. add the contents of the ubuntudesktop.sh file to the User-data section.
