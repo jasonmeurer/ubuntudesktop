@@ -2,16 +2,20 @@
 
 How to bootstrap RDP on Ubuntu 16.04.
 
-On AWS, add the contents of the ubuntudesktop.sh file to the User-data section.
-Ensure the security group allows access for ports 22 and 3389.
-ssh to the EIP of the instance with username: ubuntu
-sudo passwd ubuntu  (creates a password for the 'ubuntu' user)
-rdp to EIP
+AWS 
+1. add the contents of the ubuntudesktop.sh file to the User-data section.
+2.  Ensure the security group allows access for ports 22 and 3389.
+3. ssh to the EIP of the instance with username: ubuntu
+4. sudo passwd ubuntu  (creates a password for the 'ubuntu' user)
+5. rdp to EIP
 
 
-On Azure, save the contents of ubuntudesktop.sh to a local file.
-Ensure ports 22 and 3389 are enabled in the NSG
-Add the "Custom Script For Linux" Extension
-Script File: ubuntudesktop.sh
-Command: bash ubuntudesktop.sh
+Azure
+1. Save the contents of ubuntudesktop.sh to a local file.
+2. Ensure ports 22 and 3389 are enabled in the NSG
+3. Add the "Custom Script For Linux" Extension
+4. Script File: ubuntudesktop.sh
+5. Command: bash ubuntudesktop.sh
+6. rdp to EIP
+
 
