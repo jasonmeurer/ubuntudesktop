@@ -17,6 +17,6 @@ Azure
 3. Add the "Custom Script For Linux" Extension
 4. Script File: ubuntudesktop.sh
 5. Command: bash ubuntudesktop.sh
-6. rdp to EIP
+6. rdp to PIP
 
 
