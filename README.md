@@ -1,6 +1,7 @@
 # ubuntu-desktop
 
 Tested on Ubuntu 17.04 as copy and paste does not work on 16.04
+Recommended to use 16Bit color on the RDP client as XRDP has a history of issues at a higher setting.
 
 AWS 
 1. add the contents of the ubuntudesktop.sh file to the User-data section.
